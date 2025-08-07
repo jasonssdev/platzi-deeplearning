@@ -1,0 +1,37 @@
+name: dl-py312
+channels:
+  - conda-forge
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - python=3.12
+  - category_encoders
+  - imbalanced-learn
+  - ipykernel
+  - ipywidgets
+  - joblib
+  - jupyterlab
+  - lightgbm
+  - matplotlib
+  - notebook
+  - numpy
+  - opencv
+  - openpyxl
+  - pandas
+  - pillow
+  - plotly
+  - polars
+  - pyarrow
+  - python-dotenv
+  - rich
+  - scikit-image
+  - scikit-learn
+  - scipy
+  - seaborn
+  - statsmodels
+  - tqdm
+  - xgboost
+  - xlrd
+  - yellowbrick
+prefix: /opt/anaconda3/envs/dl-py312
