@@ -34,4 +34,7 @@ dependencies:
   - xgboost
   - xlrd
   - yellowbrick
+  - kaggle
+  - graphviz
+  - pydot
 prefix: /opt/anaconda3/envs/dl-py312
