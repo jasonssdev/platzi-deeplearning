@@ -1,29 +1,24 @@
-name: dl-py312
+name: deep-py312
 channels:
-  - conda-forge
   - defaults
+  - conda-forge
   - https://repo.anaconda.com/pkgs/main
   - https://repo.anaconda.com/pkgs/r
 dependencies:
   - python=3.12
-  - category_encoders
-  - imbalanced-learn
   - ipykernel
   - ipywidgets
-  - joblib
+  - jupyter
   - jupyterlab
   - lightgbm
   - matplotlib
   - notebook
-  - numpy
-  - opencv
+  - numpy==1.26.4
   - openpyxl
   - pandas
+  - pathlib
   - pillow
-  - plotly
-  - polars
   - pyarrow
-  - python-dotenv
   - rich
   - scikit-image
   - scikit-learn
@@ -33,8 +28,6 @@ dependencies:
   - tqdm
   - xgboost
   - xlrd
-  - yellowbrick
-  - kaggle
+  - gradio
   - graphviz
-  - pydot
-prefix: /opt/anaconda3/envs/dl-py312
+  - numpy-base=1.26.4
