@@ -266,3 +266,5 @@ data/db/*
 
 # Ignore all files in the data/raw folder
 data/raw/sign-language-img/*
+models/
+/models
